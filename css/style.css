@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.1), #354458,#e9e0d6) , url(../css/images/4.png);
+    /* background:linear-gradient(#354458 , #e9e0d6), url(../css/images/4.png); */
+    /* background:linear-gradient(#003366, #FFFFFF), url(../css/images/4.png); */
+    /* background:linear-gradient(#336699, #FFFFFF), url(../css/images/4.png); */
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+header{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+header a{
+    padding:1em;
+    text-align: center;
+    display:inline-block;
+    text-decoration: none !important;
+    margin: 5px 40px;
+    border: 2px solid #e9e0d6;
+    background-color:#29aba4;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    opacity: 0.8;
+    transition: all .5s;
+}
+header a:hover{
+    opacity: 1;
+    transform: translateY(-10px);
+}
+hr{
+    width: 80%;
+    margin: 20px auto;
+}
+header img{
+    width:7vw;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    border-radius:50%;
+}
+
+
+/* ابتدای فایل سکشن */
+
+.main {
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+}
+.main div{
+    flex-basis: 20%;
+    padding: 2%;
+
+}
+.main div img{
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    margin-top: 40px;
+    transition: all .5s;
+}
+.div p{
+    text-align: center;
+    text-transform:capitalize;
+    margin-top:10px;
+    font-size:20px;
+    font-weight: 600;
+    color:#354458;
+    opacity:0;
+    transition: all .5s;
+}
+.main img:hover{
+    border-top-left-radius: 20%;
+    border-bottom-right-radius:20%;
+    transform :translateY(10px) ;
+}
+.main div:hover  p{
+    opacity: 1;
+    transform: translateY(5px)
+}
+
+
+
+/* انتهای فایل سکشن */
+
+
+/* ابتدای فایل goals */
+/* ابتداش مانند ابتدای فایل سکشن */
+.mainz{
+    margin: 50px;
+    border: thick double;
+    border-color: #3f1e69;
+}
+.divgoals{
+    margin-left: 50px;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.h1goals{
+    padding: 40px;
+    font-size: 40px;
+    color: gold;
+}
+.h1goals:hover{
+    filter: brightness(50%);
+}
+.pgoals{
+    padding: 10px;
+}
+/* انتهای فایل goals */
+
+
+
+
+/* ابتدای فایل توضیحات*/
+
+
+
+/* انتهای فایل توضیحات */
+
+
+
+
+
+
+
+/* ابتدای فایل قوانین */
+
+
+/* انتهای فایل قوانین */
+
+
+
+
+
+
+
